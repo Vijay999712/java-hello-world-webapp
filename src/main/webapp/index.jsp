@@ -2,7 +2,6 @@ import static spark.Spark.*;
 
 public class ZomatoHomePage {
     public static void main(String[] args) {
-        // Serve HTML and CSS for the Zomato-like homepage
         get("/", (req, res) -> {
             res.type("text/html");
             return "<!DOCTYPE html>" +
@@ -61,7 +60,7 @@ public class ZomatoHomePage {
                    "</head>" +
                    "<body>" +
                    "<div class='header'>" +
-                   "<h1>Zomato</h1>" +
+                   "<h1>ORDER YOUR FOOD</h1>" +
                    "</div>" +
                    "<div class='search-bar'>" +
                    "<input type='text' placeholder='Search for restaurants, dishes...'>" +
