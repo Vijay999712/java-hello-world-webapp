@@ -1,4 +1,4 @@
-<plugins>
+<project>
   <!-- Maven WAR Plugin -->
   <plugin>
     <groupId>org.apache.maven.plugins</groupId>
@@ -41,4 +41,4 @@
     <artifactId>sonar-maven-plugin</artifactId>
     <version>4.0.0.4121</version>
   </plugin>
-</plugins>
+</project>
